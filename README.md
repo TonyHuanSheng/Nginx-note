@@ -148,6 +148,11 @@ server {
 ## 預設設定檔
 
 <a name="程序設定檔"/>
+server {
+  location {
+  
+  }
+}
 
 ## 程序設定檔
 
