@@ -5,7 +5,7 @@
 - [主要設定檔](#主要設定檔): /etc/nginx/nginx.conf
 - [預設設定檔](#預設設定檔): /etc/nginx/conf.d/default.conf
 - [程序設定檔](#程序設定檔): /usr/sbin/nginx
-- [log檔](#log檔): /var/logx/
+- [log檔](#log檔): /var/log/ngoinx/
 
 
 <a name="主要設定檔"/>
