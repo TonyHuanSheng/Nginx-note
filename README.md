@@ -128,6 +128,21 @@ server{
   
 }
 ```
+```nginx
+server {
+    root /www/data;
+    # 一般路徑配置下 網址打上[IP]會直接導到/www/data目錄搜索location內設定的對應文件
+    location / {
+    }
+    # 這裡則是[IP]/images/搜索在路徑/www/data/images文件
+    loc:ation /images/ {
+    }
+    # 這裡則是[IP]\*.mp3 or mp4的副檔名 會去搜索www/media目錄下的文件
+    location ~ \.(mp3|mp4) {
+        root /www/media;
+    }
+}
+```
 <a name="預設設定檔"/>
 
 ## 預設設定檔
